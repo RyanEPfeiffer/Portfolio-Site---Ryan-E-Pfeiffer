@@ -112,7 +112,7 @@ a:active {
 
 /* Layout styling */
 .container {
-  padding: 0 15px;
+  padding: 0px 15px 15px 15px;
 }
 
 .row {
@@ -161,7 +161,7 @@ nav>ul>li>a:visited {
 }
 
 #hero {
-  background-color: #f2f2f2;
+  background-color: #FAFAF5;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -170,3 +170,9 @@ nav>ul>li>a:visited {
 main {
   padding-top: 253.66px;
 }
+footer {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
