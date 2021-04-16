@@ -68,8 +68,8 @@ a {
 
 a:hover,
 a:focus {
-  color: #a59658;
-  text-decoration: underline;
+  color: #ffffff;
+  text-decoration: none;
   /* Underlining when hovering over a link */
 }
 
@@ -89,13 +89,15 @@ a:active {
   border-radius: 3px;
   border-bottom: 2px solid #a59658;
   /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 
 .button:hover {
+  transition-duration: 0.8s;
   opacity: 0.8;
   /* Reduces the opacity of the button to 80% */
-  text-decoration: none;
+
 }
 
 .button.contact {
@@ -119,10 +121,18 @@ a:active {
   margin: 25px 0;
   /* 25px top and bottom, 0 left and right */
 }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4e4e4e;
+}
+#work h2{
+  text-align: center;
 }
 
 #hero h1 {
@@ -131,7 +141,19 @@ a:active {
   margin: 0;
   padding: 0.67em 0;
 }
-
+#hero p {
+  text-align: center;
+  /* Centers text */
+}
+#hero span {
+  display: block;
+}
+#about-page h1 {
+    text-align: center;
+}
+#about-page h2 {
+    text-align: center;
+}
 .logo {
   max-width: 250px;
 }
@@ -176,3 +198,86 @@ footer {
   padding: 10px;
   margin: 0px;
   width: 100%;
+}
+@keyframes color-change {
+  from {fill: #ffe98a;}
+  to {fill: #C0B373;}
+}
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes plane1-move {
+  from {transform: translate(300px,50px);}
+  to {transform: translate(0px,50px);}
+}
+@keyframes plane2-move {
+  from {transform: translate(0px,50px);}
+  to {transform: translate(300px,50px);}
+}
+.plane1 {
+  animation-duration: 20s;
+  animation-name: plane1-move;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.plane2 {
+  animation-duration: 20s;
+  animation-name: plane2-move;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.plane3 {
+  animation-duration: 20s;
+  animation-name: plane2-move;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 92px;
+  }
+  main {
+    padding-top: 199.8px;
+}
+.col-md-6 {
+  width: 50%;
+}
+[class*="col-md-6"] {
+  float: left;
+  padding: 20px;
+}
+#about-page h3 { margin-top: 0;}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px){
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px){
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
