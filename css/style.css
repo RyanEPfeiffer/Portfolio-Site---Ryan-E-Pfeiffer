@@ -154,6 +154,9 @@ a:active {
 #about-page h2 {
     text-align: center;
 }
+#contact h2 {
+  text-align: center;
+}
 .logo {
   max-width: 250px;
 }
