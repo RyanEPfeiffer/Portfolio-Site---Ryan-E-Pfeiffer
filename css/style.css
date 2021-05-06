@@ -130,9 +130,17 @@ a:active {
   padding-bottom: 25px;
   border-bottom: 1px solid #4e4e4e;
 }
-
+#work h1 {
+  text-align: center;
+}
 #work h2 {
   text-align: center;
+}
+#work h3 {
+  text-align: left;
+}
+#work p {
+  text-align: left;
 }
 
 #hero h1 {
@@ -143,7 +151,7 @@ a:active {
 }
 
 #hero p {
-  text-align: left;
+  text-align: center;
   /* Centers text */
 }
 
@@ -160,6 +168,7 @@ a:active {
 }
 
 #about-page h3 {
+  text-align: left;
   margin-top: 0;
 }
 
@@ -201,7 +210,7 @@ nav>ul>li>a:visited {
 }
 
 main {
-  padding-top: 106px;
+  padding-top: 126px;
 }
 
 footer {
@@ -325,7 +334,7 @@ Medium devices (640px and larger)
   }
 
   main {
-    padding-top: 199.8px;
+    padding-top: 225px;
   }
 
   .logo {
@@ -380,7 +389,7 @@ Large devices (1024px or larger)
     }
 
     main {
-      padding-top: 199.8px;
+      padding-top: 225px;
     }
 
     /* ==============================
@@ -402,5 +411,5 @@ X-large devices (1440px or larger)
       }
 
       main {
-        padding-top: 199.8px;
+        padding-top: 225px;
       }
