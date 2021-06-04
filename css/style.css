@@ -67,7 +67,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #ffffff;
+  color: #4e4e4e;
   text-decoration: none;
   /* Underlining when hovering over a link */
 }
@@ -130,15 +130,19 @@ a:active {
   padding-bottom: 25px;
   border-bottom: 1px solid #4e4e4e;
 }
+
 #work h1 {
   text-align: center;
 }
+
 #work h2 {
   text-align: center;
 }
+
 #work h3 {
   text-align: left;
 }
+
 #work p {
   text-align: left;
 }
