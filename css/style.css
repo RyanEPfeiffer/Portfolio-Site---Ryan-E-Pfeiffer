@@ -80,7 +80,7 @@ a:active {
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #c0b373;
+  background-color: #A5954A;
   color: #ffffff;
   /* needed to override the default link color */
   font-weight: 700;
@@ -100,13 +100,13 @@ a:active {
 
 .button.contact {
   background-color: transparent;
-  color: #c0b373;
+  color: #A5954A;
   text-transform: uppercase;
-  border: 2px solid #c0b373;
+  border: 2px solid #A5954A;
 }
 
 .button.contact:hover {
-  background-color: #c0b373;
+  background-color: #A5954A;
   color: #ffffff;
 }
 
@@ -231,7 +231,7 @@ footer {
   }
 
   to {
-    fill: #C0B373;
+    fill: #A5954A;
   }
 }
 
