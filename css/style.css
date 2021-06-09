@@ -227,11 +227,11 @@ footer {
 
 @keyframes color-change {
   from {
-    fill: #ffe98a;
+    color: #ffe98a;
   }
 
   to {
-    fill: #A5954A;
+    color: #a5954a;
   }
 }
 
@@ -417,3 +417,6 @@ X-large devices (1440px or larger)
       main {
         padding-top: 225px;
       }
+    }
+  }
+}
