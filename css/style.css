@@ -227,11 +227,11 @@ footer {
 
 @keyframes color-change {
   from {
-    color: #ffe98a;
+    fill: #ffe98a;
   }
 
   to {
-    color: #a5954a;
+    fill: #a5954a;
   }
 }
 
